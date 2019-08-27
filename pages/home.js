@@ -10,6 +10,7 @@ const Home = () => (
       <title>Home</title>
     </Head>
     <h1>Home</h1>
+    <img src="/static/todoroki.png" width="200" />
     <Link href="/users">
       <a>Users</a>
     </Link>
