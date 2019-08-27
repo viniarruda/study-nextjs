@@ -1,7 +1,13 @@
 import React from "react";
+import Link from "next/link";
 
 const Home = () => (
-  <h1>Home</h1>
+  <div>
+    <h1>Home</h1>
+    <Link href="/users">
+      <a>Users</a>
+    </Link>
+  </div>
 );
 
-export default Home
+export default Home;
